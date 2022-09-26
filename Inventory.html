@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory</title>
+  </head>
+  <body>
+    <header>
+      <a href="Images/Adopt HE.JPG">HOME</a>
+      <a href="http://www.healthenhance.org">Health Enhance</a>
+      <br />
+      <h3>Inventory Overview</h3>
+      <button type="submit">Submit Form</button>
+      Search <input type="text" name="search" />
+    </header>
+    <br />
+    <br />
+
+    <section>
+      <label for="Location"> Choose your desired Location: </label>
+      <input list="Location" id="Locations" name="Location" />
+
+      <datalist id="Location">
+        <option value="Lagos"></option>
+        <option value="Ibadan"></option>
+        <option value="Lokoja"></option>
+        <option value="Akungba"></option>
+        
+      </datalist>
+      
+      <form>
+        <br>
+        <label for="Name">
+            Name:
+            <input type="text" id="Name" name="Name">
+        </label>
+        <p></p>
+        <label for="post">
+            Post:
+            <input type="text" id="post" name="post">
+        </label>
+        <p></p>
+        <label for="unit">Unit:</label>
+            <input type="text" name="unit" id="unit">
+        <p></p>
+        <label for="type">Type:</label>
+            <input type="text" name="type" id="type">
+        </label>
+        <p></p>
+        <label for="selector">
+          <select id="selector">
+                <option>Kerozene</option>
+                <option>Diesel</option>
+                <option selected>Petrol</option>
+                <option>Gas</option>
+            </select>
+        </label>
+      </form>
+<p></p>
+<h3>Internal Operation Method</h3>
+        <form>
+            <label for="tank-tank">
+                Tank-Tank <p></p>
+                <input type="checkbox" id="tank-tank" name="tank-tank">
+            </label>
+            <p></p>
+            <label for="Walk-in-Customer">
+                Walk-in-Customer <p></p>
+                <input type="checkbox" id="Walk-in-Customer" name="Walk-in-Customer">
+            </label>
+            <p></p>
+
+            <label for="Transfer">
+                Transfer<p></p>
+                <input type="checkbox" id="Transfer" name="Transfer"checked>
+            </label>
+
+            
+        </form>
+
+    </section>
+    <p></p>
+    <div>
+        <textarea name="message" cols="50" rows="4">
+            Note to Manager
+            </textarea
+    </div>
+    <p></p>
+    <video width="300" height="200" autoplay>
+        <source src="Images/Phonics - Jolly Phonics - A to Z - Part 2 3.wmv" type="video/mp4" />
+        Please Check the video extension.
+        </video>
+        
+  </body>
+  <footer>
+    <h6>&copy; Health Enhance Incorporated, 2017</h6>
+    <h6>info@healthenhance.com</h6>
+  </footer>
+</html>
